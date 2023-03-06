@@ -1,4 +1,5 @@
 from .base import *
+from os import getenv
 
 DEBUG = True
 
@@ -16,4 +17,3 @@ DATABASES = {
 }
 
 WSGI_APPLICATION = "passwordSafe.wsgi.application"
-
