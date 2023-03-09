@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from password_safe_app.models import User, Password
+from .models import User, Password
 
 
 class UserSerializer(serializers.ModelSerializer):
